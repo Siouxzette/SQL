@@ -1,0 +1,18 @@
+CREATE TABLE Quality_Pearls (id INTEGER Primary Key, "Color" TEXT, "Size" INTEGER, "Bracelet" INTEGER, "Necklace" INTEGER, "Earrings" INTEGER, "Quality" TEXT);
+INSERT INTO Quality_Pearls VALUES (1,"Blue", 5, 45, 120, 20, "AAA");
+INSERT INTO Quality_Pearls VALUES (3,"Pink", 7, 82, 250, 40, "AA");
+INSERT INTO Quality_Pearls VALUES (5,"Silver", 9, 300, 900, 90, "AAA");
+INSERT INTO Quality_Pearls VALUES (7,"White", 10, 1000, 3000, 300, "AAAA" );
+INSERT INTO Quality_Pearls VALUES (9,"Black", 8.5, 500, 1600, 280, "AAA");
+INSERT INTO Quality_Pearls VALUES (11,"Blue", 6, 60, 180, 30, "A");
+INSERT INTO Quality_Pearls VALUES (2,"Blue", 7, 80, 200, 50, "A");
+INSERT INTO Quality_Pearls VALUES (4,"Pink", 8.5, 500, 1100, 300, "AA");
+INSERT INTO Quality_Pearls VALUES (6,"Black", 7, 100, 500, 200, "AA");
+INSERT INTO Quality_Pearls VALUES (8,"White", 6, 70, 300, 100, "AAA");
+INSERT INTO Quality_Pearls VALUES (10,"Pink", 7.5, 600, 2000, 300, "AAAA");
+INSERT INTO Quality_Pearls VALUES (12,"Silver", 6, 70, 220, 250, "AAA");
+INSERT INTO Quality_Pearls VALUES (13,"Cream", 7, 500, 1000, 300, "AAA");
+INSERT INTO Quality_Pearls VALUES (14,"Cream", 7.5, 600, 1300, 350, "AAA");
+INSERT INTO Quality_Pearls VALUES (15,"Blue", 5, 80, 300, 60, "AAAA" );
+
+SELECT * FROM Quality_Pearls WHERE Quality = "AAA" ORDER BY size;
